@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webpage</title>
+  <script src="https://kit.fontawesome.com/910ce80589.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="menu">
+        <div class="logo">
+          <img src="img/mamon.png" alt="mamondots" title="Logo" />
+          <a href="#">mamondots</a>
+        </div>
+
+        <div class="nav">
+          <ul>
+            <li><a href="">features</a></li>
+            <li><a href="">pricing</a></li>
+            <li><a href="">tours</a></li>
+            <li><a href="">explore <i class="fa-solid fa-angle-down"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="header-btn">account</button>
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <div class="info">
+          <h1 class="title">
+            It's not about ideas,<br><span> It's about making</span>
+            <br> ideas happen <br>
+          </h1>
+          <p class="text">
+            Technology is best when it brings people together.
+          </p>
+          <div class="content-btn">
+            <button class="btn btn-1">Get Started</button>
+            <button class="btn btn-2"><i class="fa-solid fa-play"></i> How it</button>
+          </div>
+        </div>
+        <div class="content-img">
+          <div class="circle">
+            <div class="playbtn">
+              <img src="img/play.png" alt="play" title="play" />
+            </div>
+
+            <div class="comouter">
+              <img src="img/computer.png" alt="computer" title="computer" />
+            </div>
+
+            <div class="mouse">
+              <img src="img/mouse.png" alt="mouse" title="mouse" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="conar-circle"></div>
+    <div class="conar-circle conar-circle2"></div>
+    <div class="conar-circle conar-circle3"></div>
+    <div class="conar-circle conar-circle4"></div>
+    <div class="conar-circle conar-circle5"></div>
+  </div>
+
+  <section>
+    <h3>What is Technology?</h3>
+    <p>Technology is the application of knowledge for achieving practical goals in a reproducible way. The word
+      technology can also mean the products resulting from such efforts, including both tangible tools such
+      as utensils or machines, and intangible ones such as software. Technology plays a critical role in science,
+      engineering, and everyday life.
+      <br>
+      <br>
+      Technological advancements have led to significant changes in society. The earliest known technology is the stone
+      tool, used during prehistoric times, followed by the control of fire, which contributed to the growth of the human
+      brain and the development of language during the Ice Age. The invention of the wheel in the Bronze Age allowed
+      greater travel and the creation of more complex machines. More recent technological inventions, including the
+      printing press, telephone, and the Internet, have lowered barriers to communication and ushered in the knowledge
+      economy.
+      <br>
+      <br>
+      While technology contributes to economic development and improves human prosperity, it can also have negative
+      impacts like pollution and resource depletion, and can cause social harms like technological unemployment
+      resulting from automation. As a result, there are ongoing philosophical and political debates about the role and
+      use of technology, the ethics of technology, and ways to mitigate its downsides.</p>
+  </section>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <script>
+    let animation = anime({
+      targets: 'header',
+      translateY: [-40, 0],
+      opacity: [0, 1],
+      duration: 1000,
+      easing: 'easeInOutExpo',
+    });
+
+    anime({
+      targets: '.title',
+      translateX: [-80, 0],
+      opacity: [0, 1],
+      duration: 2000,
+      easing: 'easeInOutExpo',
+    });
+
+    anime({
+      targets: '.text',
+      translateX: [80, 0],
+      opacity: [0, 1],
+      duration: 2000,
+      easing: 'easeInOutExpo',
+    });
+
+    anime({
+      targets: '.content-btn',
+      translateY: [80, 0],
+      opacity: [0, 1],
+      duration: 2000,
+      easing: 'easeInOutExpo',
+    });
+
+    anime({
+      targets: '.comouter',
+      translateX: [80, 0],
+      opacity: [0, 1],
+      duration: 3000,
+      easing: 'easeInOutExpo',
+    });
+    anime({
+      targets: '.playbtn',
+      translateY: [80, 0],
+      opacity: [0, 1],
+      duration: 3000,
+      easing: 'easeInOutExpo',
+    });
+
+    anime({
+      targets: '.mouse',
+      translateX: [-80, 0],
+      opacity: [0, 1],
+      duration: 3000,
+      easing: 'easeInOutExpo',
+    });
+
+    anime({
+      targets: '.conar-circle',
+      translateX: [-80, 0],
+      opacity: [0, 1],
+      duration: 3000,
+      easing: 'easeInOutExpo',
+    });
+  </script>
+</body>
+
+</html>
