@@ -4,7 +4,7 @@ Technology is the application of knowledge for achieving practical goals in a re
 
 Preview >>>>>
 
-![home page](https://user-images.githubusercontent.com/97239651/230782406-0eee4145-236b-4aed-bb4b-24fdad64e30a.PNG)
+![preview](https://user-images.githubusercontent.com/97239651/232091794-6797d404-6be7-4e63-a9d4-cb1f26f4e966.png)
 
 Real Creator and Designer by AI Mamon (link is here)
 https://github.com/mamondots/animatedhomepage25
