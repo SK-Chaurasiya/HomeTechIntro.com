@@ -128,21 +128,21 @@ header {
 }
 
 .header-btn {
-    background-color: #fab7c3;
+    background-color: #f1f1f1;
     padding: 18px 35px;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
-    color: #8280ee;
+    color: #000000;
     text-transform: capitalize;
-    border: 1px solid #fab7c3;
+    border: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.4s ease-in;
 }
 
 .header-btn:hover {
+    border: 1px solid #f1f1f1;
     background-color: transparent;
-    color: #fab7c3;
 }
 
 .content {
@@ -193,7 +193,7 @@ header {
 }
 
 .content-btn .btn {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     transition: 0.5s;
 }
